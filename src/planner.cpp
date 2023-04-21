@@ -253,6 +253,5 @@ void Planner::createWayPoint(Spot* goal){
     lane.waypoints = wps;
     lane_array.lanes.emplace_back(lane);
     lane_pub_.publish(lane_array);
-
 }
 
